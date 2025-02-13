@@ -103,6 +103,7 @@ export default function Home() {
           <h4>TRAVELLING</h4>
         </SectionOneBanners>
 
+        
         <SectionOneBanners>
           <SectionOneBannersContent>
             <Image
