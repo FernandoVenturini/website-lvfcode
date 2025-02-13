@@ -102,21 +102,6 @@ export default function Home() {
           </SectionOneBannersContent>
           <h4>TRAVELLING</h4>
         </SectionOneBanners>
-
-        
-        <SectionOneBanners>
-          <SectionOneBannersContent>
-            <Image
-              className="img_banner"
-              src="https://elements-resized.envatousercontent.com/elements-cover-images/f52accff-d53a-45fa-af62-bbab77c49575?w=710&cf_fit=scale-down&q=85&format=auto&s=8d142a74440734abbd7acc03d057685be50e5d61d55850636b304ceeec7f3b1d"
-              alt="Logo"
-              width={300}
-              height={300}
-            />
-          </SectionOneBannersContent>
-          <h4>FASHION AND BEAUTY</h4>
-        </SectionOneBanners>
-
         
       </SectionOne>
     </>
