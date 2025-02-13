@@ -69,7 +69,7 @@ export const SectionOneBanners = styled.div`
 `;
 
 export const SectionOneBannersContent = styled.div`
-    margin-top: 3rem;
+    margin-top: 5rem;
 
     &:hover {
             box-shadow: 0px 0px 28px 0px #fff;
