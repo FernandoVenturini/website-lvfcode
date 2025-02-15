@@ -42,13 +42,13 @@ export default function Home() {
           <SectionOneBannersContent>
             <Image
               className="img_banner"
-              src="https://elements-resized.envatousercontent.com/elements-cover-images/2e363c2c-e003-4872-8bdc-eef698b502dc?w=710&cf_fit=scale-down&q=85&format=auto&s=972593fdeea47c34e3d904daf72b4e9a84006ae8a818904e721907c58062e3a4"
+              src="/images/img_01.webp"
               alt="Logo"
               width={300}
               height={300}
             />
           </SectionOneBannersContent>
-          <h4>ADMIN PANEL TEMPLATE - DASHBOARD</h4>
+          <h4>JEWELRY</h4>
         </SectionOneBanners>
 
         <SectionOneBanners>
@@ -88,6 +88,19 @@ export default function Home() {
             />
           </SectionOneBannersContent>
           <h4>CAR DEALERSHIPCAR</h4>
+        </SectionOneBanners>
+
+        <SectionOneBanners>
+          <SectionOneBannersContent>
+            <Image
+              className="img_banner"
+              src="https://elements-resized.envatousercontent.com/elements-cover-images/92c466b1-4885-4368-b49c-6ee4884310b4?w=710&cf_fit=scale-down&q=85&format=auto&s=8095778987455f58319aaee36a9fb487d77a0a4ee15f0a4e246dda8f5283d5b6"
+              alt="Logo"
+              width={300}
+              height={300}
+            />
+          </SectionOneBannersContent>
+          <h4>TRAVELLING</h4>
         </SectionOneBanners>
 
         <SectionOneBanners>
