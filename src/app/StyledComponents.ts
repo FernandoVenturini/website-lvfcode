@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
+
 export const Header = styled.div`
     width: 100%;
     height: 25vh;
-    background: #000;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -24,7 +24,7 @@ export const ItemHeader = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 20px;
+    font-size: 18px;
     color: #f00;
     cursor: pointer;
     width: 25%; 
@@ -32,11 +32,58 @@ export const ItemHeader = styled.div`
     &:hover {
         border-radius: 10px;
         color: white;
-        font-size: 23px;
+        font-size: 20px;
     }
 `;
 
 export const SectionOne = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:  100%;
+    height: 80vh;
+`;
+
+export const SectionOneContent = styled.div`
+    width:  60%;
+    height: auto;
+    margin: 0 auto;
+
+    h1 {
+        color: #fff;
+        opacity: .7;
+        font-size: 48px;
+        text-transform: uppercase;
+    }
+
+    span {
+        color: #f00;
+        font-size: 54px;
+    }
+
+    h2 {
+        color: #f00;
+        font-size: 40px;
+        text-transform: uppercase;
+    }
+
+    p{
+        font-size: 18px;
+        font-weight: 500;
+        margin-top: 12px;
+        line-height: 24px;
+        color: #ccc;
+    }
+
+    h4 {
+        color: #ccc;
+        font-size: 32px;
+        margin-top: 6rem;
+        text-align: center;
+    }
+`;
+
+export const SectionTwo = styled.div`
     display: grid;
     row-gap: 50px 100px;
     grid-template-columns: auto auto auto;
@@ -48,7 +95,7 @@ export const SectionOne = styled.div`
     gap: 3rem;
 `;
 
-export const SectionOneBanners = styled.div`
+export const SectionTwoBanners = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -80,7 +127,7 @@ export const SectionOneBanners = styled.div`
     }
 `;
 
-export const SectionOneBannersContent = styled.div`
+export const SectionTwoBannersContent = styled.div`
     margin-top: 5rem;    
 `;
 

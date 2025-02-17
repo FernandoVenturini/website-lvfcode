@@ -5,9 +5,12 @@ import {
   ItemHeader,
   ImageLogo,
   SectionOne,
+  SectionOneContent,
+  SectionTwo,
   ItemsHeader,
-  SectionOneBanners,
-  SectionOneBannersContent
+  SectionTwoBanners,
+  SectionTwoBannersContent,
+  Footer
 } from "./StyledComponents";
 
 export default function Home() {
@@ -38,8 +41,24 @@ export default function Home() {
       </Header>
 
       <SectionOne>
-        <SectionOneBanners>
-          <SectionOneBannersContent>
+        <SectionOneContent>
+        <Image
+            className="img_banner"
+            src=""
+            alt="Logo"
+            width={0}
+            height={0}
+          />
+          <h1>We are <span>&lt;LVF_Code&gt;</span></h1>
+          <h2>Your Software Factory</h2>
+          <p>Our team of experts provides top-notch services that increase the <br/>quality of your software and your productivity.</p>
+          <h4>As software developers we strive to deliver not just well-written code, but code that delivers real value to every customer.</h4>
+        </SectionOneContent>
+      </SectionOne>
+
+      <SectionTwo>
+        <SectionTwoBanners>
+          <SectionTwoBannersContent>
             <Image
               className="img_banner"
               src="/images/img_01.webp"
@@ -47,12 +66,12 @@ export default function Home() {
               width={300}
               height={300}
             />
-          </SectionOneBannersContent>
+          </SectionTwoBannersContent>
           <h4>JEWELRY</h4>
-        </SectionOneBanners>
+        </SectionTwoBanners>
 
-        <SectionOneBanners>
-          <SectionOneBannersContent>
+        <SectionTwoBanners>
+          <SectionTwoBannersContent>
             <Image
               className="img_banner"
               src="https://elements-resized.envatousercontent.com/elements-cover-images/13eddf87-e45c-4127-9790-8e4cd68c1e10?w=710&cf_fit=scale-down&q=85&format=auto&s=57b2ed5787ddbb79fb462bfa23c8fb8aed82ca96480dd42b4d206b9bf6e74576"
@@ -60,12 +79,12 @@ export default function Home() {
               width={300}
               height={300}
             />
-          </SectionOneBannersContent> 
+          </SectionTwoBannersContent> 
           <h4>PERSONAL PORTFOLIO TEMPLATE</h4> 
-        </SectionOneBanners>
+        </SectionTwoBanners>
 
-        <SectionOneBanners>
-          <SectionOneBannersContent>
+        <SectionTwoBanners>
+          <SectionTwoBannersContent>
             <Image
               className="img_banner"
               src="https://elements-resized.envatousercontent.com/elements-cover-images/0f4e235d-4870-4806-b5fe-0454cbedaca1?w=710&cf_fit=scale-down&q=85&format=auto&s=1934049c8eefad2094f7aaa2cceb19b494483772a8f501a2cc42ba9e0bfbf17e"
@@ -73,12 +92,12 @@ export default function Home() {
               width={300}
               height={300}
             />
-          </SectionOneBannersContent>
+          </SectionTwoBannersContent>
           <h4>FOOD AND RESTAURANT</h4>
-        </SectionOneBanners>
+        </SectionTwoBanners>
 
-        <SectionOneBanners>
-          <SectionOneBannersContent>
+        <SectionTwoBanners>
+          <SectionTwoBannersContent>
             <Image
               className="img_banner"
               src="https://elements-resized.envatousercontent.com/elements-cover-images/fad1180c-0746-4330-b74e-9f82fc311206?w=710&cf_fit=scale-down&q=85&format=auto&s=bab8bc9067da670368bd4aae6e4bc13c26a756e79c5f5c354faa5010c6a323d5"
@@ -86,12 +105,12 @@ export default function Home() {
               width={300}
               height={300}
             />
-          </SectionOneBannersContent>
+          </SectionTwoBannersContent>
           <h4>CAR DEALERSHIPCAR</h4>
-        </SectionOneBanners>
+        </SectionTwoBanners>
 
-        <SectionOneBanners>
-          <SectionOneBannersContent>
+        <SectionTwoBanners>
+          <SectionTwoBannersContent>
             <Image
               className="img_banner"
               src="https://elements-resized.envatousercontent.com/elements-cover-images/92c466b1-4885-4368-b49c-6ee4884310b4?w=710&cf_fit=scale-down&q=85&format=auto&s=8095778987455f58319aaee36a9fb487d77a0a4ee15f0a4e246dda8f5283d5b6"
@@ -99,12 +118,12 @@ export default function Home() {
               width={300}
               height={300}
             />
-          </SectionOneBannersContent>
+          </SectionTwoBannersContent>
           <h4>TRAVELLING</h4>
-        </SectionOneBanners>
+        </SectionTwoBanners>
 
-        <SectionOneBanners>
-          <SectionOneBannersContent>
+        <SectionTwoBanners>
+          <SectionTwoBannersContent>
             <Image
               className="img_banner"
               src="https://elements-resized.envatousercontent.com/elements-cover-images/92c466b1-4885-4368-b49c-6ee4884310b4?w=710&cf_fit=scale-down&q=85&format=auto&s=8095778987455f58319aaee36a9fb487d77a0a4ee15f0a4e246dda8f5283d5b6"
@@ -112,11 +131,10 @@ export default function Home() {
               width={300}
               height={300}
             />
-          </SectionOneBannersContent>
+          </SectionTwoBannersContent>
           <h4>TRAVELLING</h4>
-        </SectionOneBanners>
-        
-      </SectionOne>
+        </SectionTwoBanners>        
+      </SectionTwo>
     </>
   );
 }
