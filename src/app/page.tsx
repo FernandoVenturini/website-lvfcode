@@ -6,6 +6,7 @@ import {
   ImageLogo,
   SectionOne,
   SectionOneContent,
+  SectionDescription,
   SectionTwo,
   ItemsHeader,
   SectionTwoBanners,
@@ -42,19 +43,22 @@ export default function Home() {
 
       <SectionOne>
         <SectionOneContent>
-        <Image
-            className="img_banner"
-            src=""
-            alt="Logo"
-            width={0}
-            height={0}
-          />
           <h1>We are <span>&lt;LVF_Code&gt;</span></h1>
-          <h2>Your Software Factory</h2>
-          <p>Our team of experts provides top-notch services that increase the <br/>quality of your software and your productivity.</p>
-          <h4>As software developers we strive to deliver not just well-written code, but code that delivers real value to every customer.</h4>
+          <h3>Your Software Factory</h3>
+          <p>Our team of experts provides top-notch services that increase the <br />quality of your software and your productivity.</p>
         </SectionOneContent>
+        <Image
+          className="img_banner"
+          src="/images/robo_programando"
+          alt="Logo"
+          width={550}
+          height={450}
+        />
       </SectionOne>
+
+      <SectionDescription>
+        <h4>As software developers we strive to deliver not just well-written code, but code that delivers real value to every customer.</h4>
+      </SectionDescription>
 
       <SectionTwo>
         <SectionTwoBanners>
@@ -79,8 +83,8 @@ export default function Home() {
               width={300}
               height={300}
             />
-          </SectionTwoBannersContent> 
-          <h4>PERSONAL PORTFOLIO TEMPLATE</h4> 
+          </SectionTwoBannersContent>
+          <h4>PERSONAL PORTFOLIO TEMPLATE</h4>
         </SectionTwoBanners>
 
         <SectionTwoBanners>
@@ -126,15 +130,19 @@ export default function Home() {
           <SectionTwoBannersContent>
             <Image
               className="img_banner"
-              src="https://elements-resized.envatousercontent.com/elements-cover-images/92c466b1-4885-4368-b49c-6ee4884310b4?w=710&cf_fit=scale-down&q=85&format=auto&s=8095778987455f58319aaee36a9fb487d77a0a4ee15f0a4e246dda8f5283d5b6"
+              src="https://elements-resized.envatousercontent.com/elements-cover-images/611bcc23-f289-499d-baf8-5ef631388492?w=710&cf_fit=scale-down&q=85&format=auto&s=12ffb72c3916bc45ead87bea7d3e5c00eba82bd4cae23d847ce171bf07567f71"
               alt="Logo"
               width={300}
               height={300}
             />
           </SectionTwoBannersContent>
-          <h4>TRAVELLING</h4>
-        </SectionTwoBanners>        
+          <h4>BUSINESS</h4>
+        </SectionTwoBanners>
       </SectionTwo>
+
+      <Footer>
+        <p>© 2025 LVF_Code. All Rights Reserved.</p>
+      </Footer>
     </>
   );
 }
