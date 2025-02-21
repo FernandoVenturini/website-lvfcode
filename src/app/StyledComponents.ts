@@ -8,6 +8,26 @@ export const Header = styled.div`
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
+    @media(max-width: 600px) {
+        width: 100%;
+        height: 150px;
+        margin: 0 auto;
+    }
+`;
+
+export const ImageLogo = styled.div`
+    margin-left: 3rem;
+
+    .img_logo {
+        border-radius: 50%;
+        border: 1px solid #999;
+    }
+
+    @media(max-width: 600px) {
+        width: 85px;
+        margin-left: 1rem;
+    }
 `;
 
 export const ItemsHeader = styled.div`
@@ -17,7 +37,12 @@ export const ItemsHeader = styled.div`
     align-items: center;
     width: 30%;
     padding: 15px;
-    margin-right: 6rem;    
+    margin-right: 6rem; 
+    
+    @media(max-width: 600px) {
+        width: 65%;
+        margin: 0 auto;
+    }
 `;
 
 export const ItemHeader = styled.div`
@@ -34,6 +59,10 @@ export const ItemHeader = styled.div`
         color: white;
         font-size: 20px;
     }
+
+    @media(max-width: 600px) {
+        font-size: 10px;
+    }
 `;
 
 export const SectionOne = styled.div`
@@ -42,10 +71,17 @@ export const SectionOne = styled.div`
     align-items: center;
     width:  100%;
     height: auto;
-    margin-bottom: 6rem;
+    margin-bottom: 6rem;    
 
     .img_banner {
         border-radius: 50%;
+    }
+
+    @media(max-width: 600px) {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
     }
 `;
 
@@ -80,6 +116,29 @@ export const SectionOneContent = styled.div`
         color: #ccc;
         letter-spacing: .1em;
     }
+
+    @media (max-width: 600px) {
+        width: 90%;
+        height: auto;
+        text-align: center;
+        padding: 1rem;
+
+        h1 {
+            font-size: 28px;
+        }
+
+        span {
+            font-size: 32px;
+        }
+
+        h3 {
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+    }
 `;
 
 export const SectionDescription = styled.div`
@@ -91,6 +150,15 @@ export const SectionDescription = styled.div`
     h4 {
         font-size: 32px;
         text-align: center;
+    }
+
+
+    @media(max-width: 600px) {
+        width: 90%;
+
+        h4 {
+            font-size: 28px;
+        }
     }
 `;
 
@@ -104,6 +172,14 @@ export const SectionTwo = styled.div`
     height: auto;
     padding: 30px;
     gap: 3rem;
+
+    @media(max-width: 600px) {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
 `;
 
 export const SectionTwoBanners = styled.div`
@@ -138,19 +214,15 @@ export const SectionTwoBanners = styled.div`
         font-weight: bold;
         color: #f00;
     }
+
+    @media(max-width: 600px) {
+        max-width: 100%;
+        margin: 0 auto;
+    }
 `;
 
 export const SectionTwoBannersContent = styled.div`
     margin-top: 5rem;    
-`;
-
-export const ImageLogo = styled.div`
-    margin-left: 3rem;
-
-    .img_logo {
-        border-radius: 50%;
-        border: 1px solid #999;
-    }
 `;
 
 export const Footer = styled.div`
@@ -168,5 +240,17 @@ export const Footer = styled.div`
     p {
         text-align: center;
         color: #f00;
+    }
+
+    @media(max-width: 600px) {
+        width: 100%;
+        margin: 0 auto;
+
+        p {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            text-align: center;
+        }
     }
 `;
