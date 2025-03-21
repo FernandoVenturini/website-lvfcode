@@ -8,6 +8,7 @@ import {
   SectionOneContent,
   SectionDescription,
   SectionTwo,
+  SectionTitleBanners,
   ItemsHeader,
   SectionTwoBanners,
   SectionTwoBannersContent,
@@ -60,25 +61,29 @@ export default function Home() {
         <h4>As software developers we strive to deliver not just well-written code, but code that delivers real value to every customer.</h4>
       </SectionDescription>
 
+        <SectionTitleBanners>
+          <h1>Choose what you need!!!</h1>
+        </SectionTitleBanners>
+
       <SectionTwo>
         <SectionTwoBanners>
           <SectionTwoBannersContent>
             <Image
               className="img_banner"
-              src="https://coffee-shoppage.netlify.app/"
+              src="/images/img_01.webp"
               alt="Logo"
               width={300}
               height={300}
             />
           </SectionTwoBannersContent>
-          <h4>JEWELRY</h4>
+          <h4>WEBSITES</h4>
         </SectionTwoBanners>
 
         <SectionTwoBanners>
           <SectionTwoBannersContent>
             <Image
               className="img_banner"
-              src=""
+              src="/images/img_02.webp"
               alt="Logo"
               width={300}
               height={300}
@@ -91,52 +96,52 @@ export default function Home() {
           <SectionTwoBannersContent>
             <Image
               className="img_banner"
-              src=""
+              src="/images/img_03.webp"
               alt="Logo"
               width={300}
               height={300}
             />
           </SectionTwoBannersContent>
-          <h4>FOOD AND RESTAURANT</h4>
+          <h4>DASHBOARDS</h4>
         </SectionTwoBanners>
 
         <SectionTwoBanners>
           <SectionTwoBannersContent>
             <Image
               className="img_banner"
-              src=""
+              src="/images/img_04.webp"
               alt="Logo"
               width={300}
               height={300}
             />
           </SectionTwoBannersContent>
-          <h4>CAR DEALERSHIPCAR</h4>
+          <h4>VETERINARY CLINIC SYSTEM</h4>
         </SectionTwoBanners>
 
         <SectionTwoBanners>
           <SectionTwoBannersContent>
             <Image
               className="img_banner"
-              src=""
+              src="/images/img_05.webp"
               alt="Logo"
               width={300}
               height={300}
             />
           </SectionTwoBannersContent>
-          <h4>TRAVELLING</h4>
+          <h4>WEBSITES FOR ARTS</h4>
         </SectionTwoBanners>
 
         <SectionTwoBanners>
           <SectionTwoBannersContent>
             <Image
               className="img_banner"
-              src=""
+              src="/images/img_06.webp"
               alt="Logo"
               width={300}
               height={300}
             />
           </SectionTwoBannersContent>
-          <h4>BUSINESS</h4>
+          <h4>CONFECTIONERY</h4>
         </SectionTwoBanners>
       </SectionTwo>
 

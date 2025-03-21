@@ -162,6 +162,15 @@ export const SectionDescription = styled.div`
     }
 `;
 
+export const SectionTitleBanners = styled.div`
+    h1 {
+        font-size: 52px;
+        color: #f00;
+        text-align: center;
+        margin-top: 3rem;
+    }
+`;
+
 export const SectionTwo = styled.div`
     display: grid;
     row-gap: 50px 100px;
@@ -187,12 +196,9 @@ export const SectionTwoBanners = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 400px;
-    height: auto;
     border-radius: 10px;
     cursor: pointer;
     margin-top: 2rem;
-    border: 3px solid #999;
 
     &:hover {
         box-shadow: 0px 0px 28px 0px #fff;
@@ -223,6 +229,11 @@ export const SectionTwoBanners = styled.div`
 
 export const SectionTwoBannersContent = styled.div`
     margin-top: 5rem;    
+
+    .img_banner {
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;        
+    }
 `;
 
 export const Footer = styled.div`
