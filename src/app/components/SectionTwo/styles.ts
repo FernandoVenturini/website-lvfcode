@@ -30,6 +30,7 @@ export const SectionTwoBanners = styled.div`
   &:hover {
     transform: translateY(-5px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ccc;
   }
 
   h4 {
@@ -39,6 +40,12 @@ export const SectionTwoBanners = styled.div`
 `;
 
 export const SectionTwoBannersContent = styled.div`
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border-radius: 10px;
+  padding: 15px;
+
   img {
     border-radius: 10px;
     width: 100%;

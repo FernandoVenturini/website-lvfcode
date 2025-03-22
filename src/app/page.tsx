@@ -6,6 +6,7 @@ import SectionOne from './components/SectionOne/SectionOne';
 import SectionDescription from "./components/SectionDescription/SectionDescription";
 import SectionTwo from "./components/SectionTwo/SectionTwo";
 import Footer from "./components/Footer/Footer";
+import SectionThree from "./components/SectionThree/SectionThree";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <SectionOne />
       <SectionDescription />
       <SectionTwo />
+      <SectionThree />
       <Footer />
     </>
   );
