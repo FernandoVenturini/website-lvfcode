@@ -29,11 +29,11 @@ export const SectionTwoBanners = styled.div`
 
   &:hover {
     transform: translateY(-5px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    border: 1px solid #ccc;
+    box-shadow: 0 0 8px 8px rgba(255, 255, 255, 0.5);
   }
 
   h4 {
+    font-size: 18px;
     color: #f00;
     margin-top: 1rem;
   }
