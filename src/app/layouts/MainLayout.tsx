@@ -1,5 +1,5 @@
 import React from 'react';
-import { GlobalStyle } from '../styles/globals';
+//import { GlobalStyle } from '../styles/globals';
 import Header from '../components/Header/Header';
 import Footer from '../components/Header/Header';
 
@@ -11,7 +11,7 @@ export default function MainLayout({ children }: MainLayoutProps) {
 
   return (
     <>
-      <GlobalStyle />
+      {/*<GlobalStyle />*/}
       <Header />
       <main>{children}</main>
       <Footer />
