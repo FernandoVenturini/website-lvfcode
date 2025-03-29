@@ -37,6 +37,23 @@ export default function SectionFourComponent() {
                     height={300} // Altura da imagem
                 />
             </SectionConteiner>
+
+            <SectionConteiner>
+                <Image
+                    className='img_left'
+                    src="/images/img_left.jfif" // Caminho da imagem na pasta public
+                    alt="Imagem section four"
+                    width={500} // Largura da imagem
+                    height={300} // Altura da imagem
+                />
+
+                <SectionFourContent>
+                    <p>
+                        LVF_Code is a software company focused on delivering the best value to its customers. We work with the best professionals and developers in the country.
+                        Our specialty is web development using the best cutting-edge technologies. We have extensive experience in all types of technology products such as e-commerce, e-learning, systems for your company and process automation.
+                    </p>
+                </SectionFourContent>
+            </SectionConteiner>
         </SectionFour>
 
 
